@@ -1,3 +1,5 @@
+export USE_CCACHE=1
+export CCACHE_DIR=~/.ccache-cm-14
 function hmm() {
 cat <<EOF
 Invoke ". build/envsetup.sh" from your shell to add the following functions to your environment:
