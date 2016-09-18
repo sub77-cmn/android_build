@@ -1,3 +1,4 @@
+sudo /etc/init.d/apparmor stop
 export USE_CCACHE=1
 export CCACHE_DIR=~/.ccache-cm-14
 function hmm() {
